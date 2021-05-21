@@ -1,0 +1,24 @@
+{
+  "attributes": null,
+  "success": true,
+  "errMsg": "查询成功<br/>",
+  "jsonStr": "{\"msg\":\"查询成功<br/>\",\"obj\":[{\"STAIRFIGURE\":\"图号1\"},{\"STAIRFIGURE\":\"图号2\"}],\"success\":true}",
+  "msg": "查询成功<br/>",
+  "obj": {
+      "total": 99,
+      "currentPage": 1,
+      "pageSize": 10,
+      "rows|10": [
+          {
+              "id": "@guid",
+              "isEdit": false,
+              "TARGETNAME": "指标@string(upper,5)",
+              "TARGETDESC": "@cword(20)",
+              "TARGETFORMULA": "@cword(5)",
+              "TARGETTYPE|1": ["字符串", "数字", "布尔型", "数组", "对象", "map"],
+              "LENGTH|1": [8, 16, 32, 64],
+              "PRECISION|1": [0, 1, 2, 3, 4]
+          }
+      ]
+  }
+}

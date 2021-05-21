@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// console.log(process.env.NODE_ENV);
+if (process.env.NODE_ENV === "development") {
+  require("./mock") //开发模式下使用mock
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
