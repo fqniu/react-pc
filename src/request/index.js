@@ -40,17 +40,3 @@ export default {
   getRequest,
   postRequest
 }
-
-// props:{
-//   model:{
-//     type: Object,
-//     default: () => {
-//       return {
-//         ruDesign:{
-//           xxx:"0",
-//           xxx:"0"
-//         }
-//       }
-//     }
-//   }
-// }

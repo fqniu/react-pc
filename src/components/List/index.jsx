@@ -4,14 +4,14 @@ import axios from 'axios';
 
 export default class List extends Component {
   getData1 = () => {
-    axios.get("/getData/info").then(
+    axios.get("/api/getData/info").then(
       response => { console.log('成功1', response.data); }
     ).catch(
       error => { console.log('失败1', error); }
     )
   }
   getData2 = () => {
-    axios.get("/getData/query").then(
+    axios.get("/api/getData/info").then(
       response => { console.log('成功2', response.data); }
     ).catch(
       error => { console.log('失败2', error); }
