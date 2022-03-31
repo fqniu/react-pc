@@ -12,12 +12,12 @@
           {
               "id": "@guid",
               "isEdit": false,
-              "TARGETNAME": "指标@string(upper,5)",
-              "TARGETDESC": "@cword(20)",
-              "TARGETFORMULA": "@cword(5)",
-              "TARGETTYPE|1": ["字符串", "数字", "布尔型", "数组", "对象", "map"],
-              "LENGTH|1": [8, 16, 32, 64],
-              "PRECISION|1": [0, 1, 2, 3, 4]
+              "targetName": "指标@string(upper,5)",
+              "targetDesc": "@cword(20)",
+              "targetFormula": "@cword(5)",
+              "targettype|1": ["字符串", "数字", "布尔型", "数组", "对象", "map"],
+              "length|1": [8, 16, 32, 64],
+              "precision|1": [0, 1, 2, 3, 4]
           }
       ]
   }
